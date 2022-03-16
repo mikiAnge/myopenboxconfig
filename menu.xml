@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+  <separator label="QUICK START"/>
+  <menu id="0.959459889520989" icon="/home/miguelr/.config/obmenu-generator/icons/a44948f67390c095c9de36671b8a18f5.png" label="Launch Apps">
+  <menu id="0.487176595346199" icon="/home/miguelr/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png" label="Accessories">
+    <item label="Ark" icon="/home/miguelr/.config/obmenu-generator/icons/00993ab77d22edabeea10c51dd10d69a.png"><action name="Execute"><command><![CDATA[ark]]></command></action></item>
+    <item label="Emoji Selector" icon="/home/miguelr/.config/obmenu-generator/icons/7c89448f8239af6ae29b954d49c4befc.png"><action name="Execute"><command><![CDATA[ibus-ui-emojier-plasma]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/miguelr/.config/obmenu-generator/icons/253ccbfd9dc6b320c2bf7b7010063ded.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="File Manager" icon="/home/miguelr/.config/obmenu-generator/icons/31b0d0fac135598671b1c4187d445ccf.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Filelight" icon="/home/miguelr/.config/obmenu-generator/icons/1bf8ead9507246ea3046c7847d622612.png"><action name="Execute"><command><![CDATA[filelight]]></command></action></item>
+    <item label="KAlarm" icon="/home/miguelr/.config/obmenu-generator/icons/3488edc397fc51dfeffec797d1566a7d.png"><action name="Execute"><command><![CDATA[kalarm]]></command></action></item>
+    <item label="Kate" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[kate -b]]></command></action></item>
+    <item label="KBackup" icon="/home/miguelr/.config/obmenu-generator/icons/7a914d66aa4184ae09675b386fb992c9.png"><action name="Execute"><command><![CDATA[kbackup]]></command></action></item>
+    <item label="KCalc" icon="/home/miguelr/.config/obmenu-generator/icons/007098c29a2405433f0dc3a177c8ade9.png"><action name="Execute"><command><![CDATA[kcalc]]></command></action></item>
+    <item label="KCharSelect" icon="/home/miguelr/.config/obmenu-generator/icons/63e3f0f5ccecedbd14f76f0218d56628.png"><action name="Execute"><command><![CDATA[kcharselect --qwindowtitle]]></command></action></item>
+    <item label="KDE Itinerary" icon="/home/miguelr/.config/obmenu-generator/icons/0f2f1daedb2e49ff0320fa44bb4bb7f4.png"><action name="Execute"><command><![CDATA[itinerary]]></command></action></item>
+    <item label="KFind" icon="/home/miguelr/.config/obmenu-generator/icons/b8f0639e5a24f8ad2f12c07de124347e.png"><action name="Execute"><command><![CDATA[kfind]]></command></action></item>
+    <item label="KFloppy" icon="/home/miguelr/.config/obmenu-generator/icons/d63537c8fa018446ba8611c04fc0d332.png"><action name="Execute"><command><![CDATA[kfloppy -qwindowtitle]]></command></action></item>
+    <item label="KGpg" icon="/home/miguelr/.config/obmenu-generator/icons/7110e7ddb42524e33240bc3e289a2ab0.png"><action name="Execute"><command><![CDATA[kgpg]]></command></action></item>
+    <item label="Kleopatra" icon="/home/miguelr/.config/obmenu-generator/icons/d156613081d15ad6997076783f078056.png"><action name="Execute"><command><![CDATA[kleopatra]]></command></action></item>
+    <item label="Klipper" icon="/home/miguelr/.config/obmenu-generator/icons/5033ffd1ab13f4ae971fca441107fe27.png"><action name="Execute"><command><![CDATA[klipper]]></command></action></item>
+    <item label="KMag" icon="/home/miguelr/.config/obmenu-generator/icons/b8f0639e5a24f8ad2f12c07de124347e.png"><action name="Execute"><command><![CDATA[kmag]]></command></action></item>
+    <item label="KMail Import Wizard" icon="/home/miguelr/.config/obmenu-generator/icons/fda1e3fe78b159af301360b1afcfe2d0.png"><action name="Execute"><command><![CDATA[akonadiimportwizard]]></command></action></item>
+    <item label="KMouseTool" icon="/home/miguelr/.config/obmenu-generator/icons/98277b2f5eacfc1adf5c802279248228.png"><action name="Execute"><command><![CDATA[kmousetool -qwindowtitle]]></command></action></item>
+    <item label="KMouth" icon="/home/miguelr/.config/obmenu-generator/icons/6ff8db8f165de5360cd4e5929b72e53c.png"><action name="Execute"><command><![CDATA[kmouth]]></command></action></item>
+    <item label="KNotes" icon="/home/miguelr/.config/obmenu-generator/icons/16aa0779281f33db4debe0f1ae07b27b.png"><action name="Execute"><command><![CDATA[knotes]]></command></action></item>
+    <item label="KTeaTime" icon="/home/miguelr/.config/obmenu-generator/icons/06c43d9912e4dfe76cb67833b793f4cb.png"><action name="Execute"><command><![CDATA[kteatime]]></command></action></item>
+    <item label="KTimer" icon="/home/miguelr/.config/obmenu-generator/icons/6b54786bed2c7f22303345b1abbdbd3a.png"><action name="Execute"><command><![CDATA[ktimer]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/miguelr/.config/obmenu-generator/icons/08143f8bb82c44cd63a021079db1b4c3.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="KWrite" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[kwrite]]></command></action></item>
+    <item label="Latte" icon="/home/miguelr/.config/obmenu-generator/icons/c613917ab03270c68c10d6f0bc4dcd7a.png"><action name="Execute"><command><![CDATA[/usr/bin/latte-dock]]></command></action></item>
+    <item label="Leafpad" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[leafpad]]></command></action></item>
+    <item label="Neovim" icon="/home/miguelr/.config/obmenu-generator/icons/2f75bf9f3adc8b2125d8ae77f5fe1c53.png"><action name="Execute"><command><![CDATA[urxvt -e 'nvim']]></command></action></item>
+    <item label="nitrogen" icon="/home/miguelr/.config/obmenu-generator/icons/65406b63eff322a0d25ce3d3206dc6ba.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Plank" icon="/home/miguelr/.config/obmenu-generator/icons/2ec39e323a377035ec02bd3e64eff9c8.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Spectacle" icon="/home/miguelr/.config/obmenu-generator/icons/31ae61a8a9689c3401b6c7e389a058e0.png"><action name="Execute"><command><![CDATA[/usr/bin/spectacle]]></command></action></item>
+    <item label="Sweeper" icon="/home/miguelr/.config/obmenu-generator/icons/5e129945dbda8371942f380ff9e844c6.png"><action name="Execute"><command><![CDATA[sweeper]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/miguelr/.config/obmenu-generator/icons/43b91b3a50e184689fe3cb3ee4eafcad.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/miguelr/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Variety" icon="/home/miguelr/.config/obmenu-generator/icons/850bbf6499ee9786e8d19bcfe02a7b2b.png"><action name="Execute"><command><![CDATA[variety]]></command></action></item>
+    <item label="Vim" icon="/home/miguelr/.config/obmenu-generator/icons/80360f54fa1dd6ed0fcd2d2f0ad26f63.png"><action name="Execute"><command><![CDATA[urxvt -e 'vim']]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/miguelr/.config/obmenu-generator/icons/dee989eb02cc83f25de9841a33800206.png"><action name="Execute"><command><![CDATA[/usr/bin/code --no-sandbox --unity-launch]]></command></action></item>
+    <item label="Xarchiver" icon="/home/miguelr/.config/obmenu-generator/icons/00993ab77d22edabeea10c51dd10d69a.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+    <item label="Zanshin" icon="/home/miguelr/.config/obmenu-generator/icons/fab76a906e735eedeafec7f3f7501fb8.png"><action name="Execute"><command><![CDATA[zanshin]]></command></action></item>
+  </menu>
+  <menu id="0.265593037047562" icon="/home/miguelr/.config/obmenu-generator/icons/eeef813b6b1324aba3ebf4fd828022b3.png" label="Development">
+    <item label="Akonadi Console" icon="/home/miguelr/.config/obmenu-generator/icons/024c5883d835bb2b589421a0caece9a3.png"><action name="Execute"><command><![CDATA[akonadiconsole]]></command></action></item>
+    <item label="Android Studio" icon="/home/miguelr/.config/obmenu-generator/icons/bdc55bcd2ef4d3a975099d26c7e220d7.png"><action name="Execute"><command><![CDATA[android-studio]]></command></action></item>
+    <item label="Cervisia" icon="/home/miguelr/.config/obmenu-generator/icons/32d876cece67fd1955da87e7f49a083b.png"><action name="Execute"><command><![CDATA[cervisia -qwindowtitle]]></command></action></item>
+    <item label="CMake" icon="/home/miguelr/.config/obmenu-generator/icons/5dcda9363d6b5152bf5aaac5ffa057b6.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Cuttlefish" icon="/home/miguelr/.config/obmenu-generator/icons/8125c5a59a530a90ccf3cff01e84d0b8.png"><action name="Execute"><command><![CDATA[cuttlefish]]></command></action></item>
+    <item label="Geany" icon="/home/miguelr/.config/obmenu-generator/icons/74dd26804240a995d85286b787f79b34.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Icon Browser" icon="/home/miguelr/.config/obmenu-generator/icons/06095d57ff5d478c4f2196eecefa4056.png"><action name="Execute"><command><![CDATA[yad-icon-browser]]></command></action></item>
+    <item label="KAppTemplate" icon="/home/miguelr/.config/obmenu-generator/icons/e1c9273b6767cfbb7cb0cd62ff8e25b8.png"><action name="Execute"><command><![CDATA[kapptemplate]]></command></action></item>
+    <item label="KCachegrind" icon="/home/miguelr/.config/obmenu-generator/icons/3a682ccd768aa692fc7302880cbfd01b.png"><action name="Execute"><command><![CDATA[kcachegrind -qwindowtitle]]></command></action></item>
+    <item label="KDevelop (Pick Session)" icon="/home/miguelr/.config/obmenu-generator/icons/0bdafa440190d760d327ed7bf524d13d.png"><action name="Execute"><command><![CDATA[kdevelop --ps]]></command></action></item>
+    <item label="KDevelop" icon="/home/miguelr/.config/obmenu-generator/icons/0bdafa440190d760d327ed7bf524d13d.png"><action name="Execute"><command><![CDATA[kdevelop]]></command></action></item>
+    <item label="KImageMapEditor" icon="/home/miguelr/.config/obmenu-generator/icons/4688f630dd3144350c7d0702750ce69c.png"><action name="Execute"><command><![CDATA[kimagemapeditor -qwindowtitle]]></command></action></item>
+    <item label="Kirigami Gallery" icon="/home/miguelr/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[kirigami2gallery]]></command></action></item>
+    <item label="Kompare" icon="/home/miguelr/.config/obmenu-generator/icons/01399f0e57037a72b6628db5bad60514.png"><action name="Execute"><command><![CDATA[kompare -o]]></command></action></item>
+    <item label="KUIViewer" icon="/home/miguelr/.config/obmenu-generator/icons/f2eb39308d0b1571993384a6e19c388f.png"><action name="Execute"><command><![CDATA[kuiviewer -qwindowtitle]]></command></action></item>
+    <item label="Lokalize" icon="/home/miguelr/.config/obmenu-generator/icons/1ffb26e4aad91bb4777bd6bed4cf3b0e.png"><action name="Execute"><command><![CDATA[lokalize]]></command></action></item>
+    <item label="Meld" icon="/home/miguelr/.config/obmenu-generator/icons/f70f40cc5539a0c3c059b3436383c07f.png"><action name="Execute"><command><![CDATA[meld]]></command></action></item>
+    <item label="Plasma Engine Explorer" icon="/home/miguelr/.config/obmenu-generator/icons/12595964942eabd919daf6f47062484e.png"><action name="Execute"><command><![CDATA[plasmaengineexplorer]]></command></action></item>
+    <item label="Plasma Global Theme Explorer" icon="/home/miguelr/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[lookandfeelexplorer]]></command></action></item>
+    <item label="Plasma Theme Explorer" icon="/home/miguelr/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[plasmathemeexplorer]]></command></action></item>
+    <item label="PyCharm Community Edition" icon="/home/miguelr/.config/obmenu-generator/icons/661d94a1ae13a71efafb2afa8f90c161.png"><action name="Execute"><command><![CDATA[/usr/bin/pycharm]]></command></action></item>
+    <item label="Qt Assistant" icon="/home/miguelr/.config/obmenu-generator/icons/acdc7e6ddb53bffcb48718587f0ec2cf.png"><action name="Execute"><command><![CDATA[assistant]]></command></action></item>
+    <item label="Qt Designer" icon="/home/miguelr/.config/obmenu-generator/icons/d7619ab6100b8cf48f43c488c0c1300f.png"><action name="Execute"><command><![CDATA[designer]]></command></action></item>
+    <item label="Qt Linguist" icon="/home/miguelr/.config/obmenu-generator/icons/acdc7e6ddb53bffcb48718587f0ec2cf.png"><action name="Execute"><command><![CDATA[linguist]]></command></action></item>
+    <item label="Qt QDBusViewer" icon="/home/miguelr/.config/obmenu-generator/icons/acdc7e6ddb53bffcb48718587f0ec2cf.png"><action name="Execute"><command><![CDATA[qdbusviewer]]></command></action></item>
+    <item label="Umbrello" icon="/home/miguelr/.config/obmenu-generator/icons/dbe87f492f45172258131dd16a9b43fc.png"><action name="Execute"><command><![CDATA[umbrello5]]></command></action></item>
+    <item label="UserFeedback Console" icon="/home/miguelr/.config/obmenu-generator/icons/5ad5f698c4ff1e5a904ac968142d1e9b.png"><action name="Execute"><command><![CDATA[UserFeedbackConsole]]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/miguelr/.config/obmenu-generator/icons/dee989eb02cc83f25de9841a33800206.png"><action name="Execute"><command><![CDATA[/usr/bin/code --no-sandbox --unity-launch]]></command></action></item>
+  </menu>
+  <menu id="0.178505238468411" icon="/home/miguelr/.config/obmenu-generator/icons/3f9ee030d44a890ebe3e89f0fbd69b50.png" label="Education">
+    <item label="Artikulate" icon="/home/miguelr/.config/obmenu-generator/icons/b39abe72cf12394738d5d4553d6298a2.png"><action name="Execute"><command><![CDATA[artikulate -qwindowtitle "%c"]]></command></action></item>
+    <item label="Blinken" icon="/home/miguelr/.config/obmenu-generator/icons/eaeb259d3f0f731917fe662b2c0cad74.png"><action name="Execute"><command><![CDATA[blinken]]></command></action></item>
+    <item label="Cantor" icon="/home/miguelr/.config/obmenu-generator/icons/4eac2c15c4f59baf2bfb242091dc05a6.png"><action name="Execute"><command><![CDATA[cantor -qwindowicon cantor -qwindowtitle]]></command></action></item>
+    <item label="KAlgebra Mobile" icon="/home/miguelr/.config/obmenu-generator/icons/f63bb267e8853eb0f0d53c829b898e7d.png"><action name="Execute"><command><![CDATA[kalgebramobile]]></command></action></item>
+    <item label="KAlgebra" icon="/home/miguelr/.config/obmenu-generator/icons/f63bb267e8853eb0f0d53c829b898e7d.png"><action name="Execute"><command><![CDATA[kalgebra]]></command></action></item>
+    <item label="Kalzium" icon="/home/miguelr/.config/obmenu-generator/icons/dae8535c4191a0bea31f05d43f2f22d9.png"><action name="Execute"><command><![CDATA[kalzium -qwindowtitle]]></command></action></item>
+    <item label="Kanagram" icon="/home/miguelr/.config/obmenu-generator/icons/ceea8f9c849343156ce3648fdcc51ce4.png"><action name="Execute"><command><![CDATA[kanagram]]></command></action></item>
+    <item label="KBruch" icon="/home/miguelr/.config/obmenu-generator/icons/ac639c0ec888ddfa79856ca7815181d8.png"><action name="Execute"><command><![CDATA[kbruch -qwindowtitle]]></command></action></item>
+    <item label="KDE Marble" icon="/home/miguelr/.config/obmenu-generator/icons/6efa6819261d8d4ea567b9a1718ee870.png"><action name="Execute"><command><![CDATA[marble]]></command></action></item>
+    <item label="KGeography" icon="/home/miguelr/.config/obmenu-generator/icons/91128bb437f6301ac2793af35e64ef80.png"><action name="Execute"><command><![CDATA[kgeography]]></command></action></item>
+    <item label="KHangMan" icon="/home/miguelr/.config/obmenu-generator/icons/58fe2db248947e57990598b56f5b4a6d.png"><action name="Execute"><command><![CDATA[khangman -qwindowtitle "%c"]]></command></action></item>
+    <item label="Kig" icon="/home/miguelr/.config/obmenu-generator/icons/e806e1e5c95087f79de0a8c48f588534.png"><action name="Execute"><command><![CDATA[kig]]></command></action></item>
+    <item label="Kiten" icon="/home/miguelr/.config/obmenu-generator/icons/7dc88ff0b655b649ac017d3a1c0cd33f.png"><action name="Execute"><command><![CDATA[kiten -qwindowtitle]]></command></action></item>
+    <item label="KLettres" icon="/home/miguelr/.config/obmenu-generator/icons/1ffb26e4aad91bb4777bd6bed4cf3b0e.png"><action name="Execute"><command><![CDATA[klettres -qwindowtitle]]></command></action></item>
+    <item label="KmPlot" icon="/home/miguelr/.config/obmenu-generator/icons/a98f983ab634c692886911f68194da01.png"><action name="Execute"><command><![CDATA[kmplot]]></command></action></item>
+    <item label="KTouch" icon="/home/miguelr/.config/obmenu-generator/icons/5d1ad4329b4d018cf03a3986a2ce95ed.png"><action name="Execute"><command><![CDATA[ktouch]]></command></action></item>
+    <item label="KTurtle" icon="/home/miguelr/.config/obmenu-generator/icons/c23556c7cf4fc14d1879f87218161651.png"><action name="Execute"><command><![CDATA[kturtle -qwindowtitle]]></command></action></item>
+    <item label="KWordQuiz" icon="/home/miguelr/.config/obmenu-generator/icons/12702390e356253978bea06d120ca86d.png"><action name="Execute"><command><![CDATA[kwordquiz]]></command></action></item>
+    <item label="Minuet" icon="/home/miguelr/.config/obmenu-generator/icons/4d822d87368dc62ab401c7127b5d460c.png"><action name="Execute"><command><![CDATA[minuet]]></command></action></item>
+    <item label="Parley" icon="/home/miguelr/.config/obmenu-generator/icons/ba1a08c60f7a40a58ae145470ff61ddd.png"><action name="Execute"><command><![CDATA[parley]]></command></action></item>
+    <item label="Rocs" icon="/home/miguelr/.config/obmenu-generator/icons/2b45227051941d213c99a4c97df80c57.png"><action name="Execute"><command><![CDATA[rocs]]></command></action></item>
+    <item label="Step" icon="/home/miguelr/.config/obmenu-generator/icons/474a22c9b5f3c2f52a62e86a7b5f7799.png"><action name="Execute"><command><![CDATA[step -qwindowtitle]]></command></action></item>
+  </menu>
+  <menu id="0.662148282991513" icon="/home/miguelr/.config/obmenu-generator/icons/67a67ea4c232c71409d6e2fff994946d.png" label="Games">
+    <item label="Blinken" icon="/home/miguelr/.config/obmenu-generator/icons/eaeb259d3f0f731917fe662b2c0cad74.png"><action name="Execute"><command><![CDATA[blinken]]></command></action></item>
+    <item label="Bomber" icon="/home/miguelr/.config/obmenu-generator/icons/5d596e8143345220649b7a8ebb8e0ad6.png"><action name="Execute"><command><![CDATA[bomber -qwindowtitle]]></command></action></item>
+    <item label="Bovo" icon="/home/miguelr/.config/obmenu-generator/icons/37e0a9c55d13612f73c04c5d227d0315.png"><action name="Execute"><command><![CDATA[bovo -qwindowtitle]]></command></action></item>
+    <item label="Granatier" icon="/home/miguelr/.config/obmenu-generator/icons/9c300aa0a2a992453635a210986b1065.png"><action name="Execute"><command><![CDATA[granatier]]></command></action></item>
+    <item label="Kajongg" icon="/home/miguelr/.config/obmenu-generator/icons/b375a16bdde50693e3c3afef48a96bd4.png"><action name="Execute"><command><![CDATA[kajongg]]></command></action></item>
+    <item label="Kanagram" icon="/home/miguelr/.config/obmenu-generator/icons/ceea8f9c849343156ce3648fdcc51ce4.png"><action name="Execute"><command><![CDATA[kanagram]]></command></action></item>
+    <item label="Kapman" icon="/home/miguelr/.config/obmenu-generator/icons/59b548ab19240c8b077b8ae1f98b4e95.png"><action name="Execute"><command><![CDATA[kapman]]></command></action></item>
+    <item label="KAtomic" icon="/home/miguelr/.config/obmenu-generator/icons/33d605536befc22054ca9d5f83c1c500.png"><action name="Execute"><command><![CDATA[katomic -qwindowtitle]]></command></action></item>
+    <item label="KBlackBox" icon="/home/miguelr/.config/obmenu-generator/icons/dc726a35433840d7698c2f03d34f31bb.png"><action name="Execute"><command><![CDATA[kblackbox -qwindowtitle]]></command></action></item>
+    <item label="KBlocks" icon="/home/miguelr/.config/obmenu-generator/icons/d5bd6595028143e433d6d367929a5d32.png"><action name="Execute"><command><![CDATA[kblocks -qwindowtitle]]></command></action></item>
+    <item label="KBounce" icon="/home/miguelr/.config/obmenu-generator/icons/4bee34f1c7a255ba0ff20804d6975917.png"><action name="Execute"><command><![CDATA[kbounce -qwindowtitle]]></command></action></item>
+    <item label="KBreakOut" icon="/home/miguelr/.config/obmenu-generator/icons/0039371cb5a296d71acf95db19739811.png"><action name="Execute"><command><![CDATA[kbreakout -qwindowtitle]]></command></action></item>
+    <item label="KDiamond" icon="/home/miguelr/.config/obmenu-generator/icons/e66217d7a855bb068c2ac43f9fbc951d.png"><action name="Execute"><command><![CDATA[kdiamond -qwindowtitle]]></command></action></item>
+    <item label="KFourInLine" icon="/home/miguelr/.config/obmenu-generator/icons/4a959843ad94c9833c24e2a9d8e4e56b.png"><action name="Execute"><command><![CDATA[kfourinline]]></command></action></item>
+    <item label="KGoldrunner" icon="/home/miguelr/.config/obmenu-generator/icons/6cf3e36bd87f5df9d198d200c9e56c53.png"><action name="Execute"><command><![CDATA[kgoldrunner]]></command></action></item>
+    <item label="KHangMan" icon="/home/miguelr/.config/obmenu-generator/icons/58fe2db248947e57990598b56f5b4a6d.png"><action name="Execute"><command><![CDATA[khangman -qwindowtitle "%c"]]></command></action></item>
+    <item label="Kigo" icon="/home/miguelr/.config/obmenu-generator/icons/5b1f6345e5be9e45dd6d01e226e60e56.png"><action name="Execute"><command><![CDATA[kigo]]></command></action></item>
+    <item label="Killbots" icon="/home/miguelr/.config/obmenu-generator/icons/50ff2e04f8ec272bc38741dec633b2e9.png"><action name="Execute"><command><![CDATA[killbots -qwindowtitle]]></command></action></item>
+    <item label="Kiriki" icon="/home/miguelr/.config/obmenu-generator/icons/3b93dc96f52736bdb2b04c84fc0b3a36.png"><action name="Execute"><command><![CDATA[kiriki -qwindowtitle]]></command></action></item>
+    <item label="KJumpingCube" icon="/home/miguelr/.config/obmenu-generator/icons/023e376b4714f04e2a667e687bb32bb0.png"><action name="Execute"><command><![CDATA[kjumpingcube -qwindowtitle]]></command></action></item>
+    <item label="Klickety" icon="/home/miguelr/.config/obmenu-generator/icons/d1004b0d767bb956d904d4307d2a2cf4.png"><action name="Execute"><command><![CDATA[klickety -qwindowtitle]]></command></action></item>
+    <item label="KMahjongg" icon="/home/miguelr/.config/obmenu-generator/icons/c6388a65ffcf57dd5846fe1eb89bef7c.png"><action name="Execute"><command><![CDATA[kmahjongg -qwindowtitle]]></command></action></item>
+    <item label="KMines" icon="/home/miguelr/.config/obmenu-generator/icons/57d786ff84994fb303b16cf37ec06e9b.png"><action name="Execute"><command><![CDATA[kmines -qwindowtitle]]></command></action></item>
+    <item label="KNetWalk" icon="/home/miguelr/.config/obmenu-generator/icons/a1352892b6e9b820787d769b932efd96.png"><action name="Execute"><command><![CDATA[knetwalk -qwindowtitle]]></command></action></item>
+    <item label="Knights" icon="/home/miguelr/.config/obmenu-generator/icons/9e8974a9366c69c3d6b2bfc98341f38a.png"><action name="Execute"><command><![CDATA[knights]]></command></action></item>
+    <item label="Kolf" icon="/home/miguelr/.config/obmenu-generator/icons/db8cd57c091fd7c4b1c20f75b2bf1a38.png"><action name="Execute"><command><![CDATA[kolf]]></command></action></item>
+    <item label="Kollision" icon="/home/miguelr/.config/obmenu-generator/icons/cdcbd6cacf1d705fb8c866dffbf645e9.png"><action name="Execute"><command><![CDATA[kollision]]></command></action></item>
+    <item label="Kolor Lines" icon="/home/miguelr/.config/obmenu-generator/icons/c4708046afe78c5c53244212c189984e.png"><action name="Execute"><command><![CDATA[klines -qwindowtitle]]></command></action></item>
+    <item label="Konquest" icon="/home/miguelr/.config/obmenu-generator/icons/58b27070003031041bbffdf48d272e65.png"><action name="Execute"><command><![CDATA[konquest -qwindowtitle]]></command></action></item>
+    <item label="KPatience" icon="/home/miguelr/.config/obmenu-generator/icons/9e2854df4e481a37f4376ddb110e17df.png"><action name="Execute"><command><![CDATA[kpat -qwindowtitle]]></command></action></item>
+    <item label="KReversi" icon="/home/miguelr/.config/obmenu-generator/icons/d833bfe00eaad07da57fbaac966ea234.png"><action name="Execute"><command><![CDATA[kreversi -qwindowtitle]]></command></action></item>
+    <item label="KsirK Skin Editor" icon="/home/miguelr/.config/obmenu-generator/icons/1ffb26e4aad91bb4777bd6bed4cf3b0e.png"><action name="Execute"><command><![CDATA[ksirkskineditor -qwindowtitle]]></command></action></item>
+    <item label="KsirK" icon="/home/miguelr/.config/obmenu-generator/icons/117b92e28e67374a81f5600f594a5f15.png"><action name="Execute"><command><![CDATA[ksirk -qwindowtitle]]></command></action></item>
+    <item label="KSnakeDuel" icon="/home/miguelr/.config/obmenu-generator/icons/13f45e41258e7e2c799f393340cb2191.png"><action name="Execute"><command><![CDATA[ksnakeduel]]></command></action></item>
+    <item label="KSpaceDuel" icon="/home/miguelr/.config/obmenu-generator/icons/ddbad0bc6c6287abbdfb9b04b66e377e.png"><action name="Execute"><command><![CDATA[kspaceduel -qwindowtitle]]></command></action></item>
+    <item label="KSquares" icon="/home/miguelr/.config/obmenu-generator/icons/70bc1f296cd28e5b0139b84b14956e6e.png"><action name="Execute"><command><![CDATA[ksquares -qwindowicon ksquares -qwindowtitle]]></command></action></item>
+    <item label="KSudoku" icon="/home/miguelr/.config/obmenu-generator/icons/b19d9c08e6533204962205ff79d0a591.png"><action name="Execute"><command><![CDATA[ksudoku -qwindowicon ksudoku -qwindowtitle]]></command></action></item>
+    <item label="Kubrick" icon="/home/miguelr/.config/obmenu-generator/icons/23b740896278b752854b2978fc0e26ca.png"><action name="Execute"><command><![CDATA[kubrick]]></command></action></item>
+    <item label="LSkat" icon="/home/miguelr/.config/obmenu-generator/icons/fd93aee972a7c218cab94160b25c2f8b.png"><action name="Execute"><command><![CDATA[lskat]]></command></action></item>
+    <item label="Naval Battle" icon="/home/miguelr/.config/obmenu-generator/icons/9f11a75953f409748453c34701fbbd2b.png"><action name="Execute"><command><![CDATA[knavalbattle -qwindowtitle]]></command></action></item>
+    <item label="Palapeli" icon="/home/miguelr/.config/obmenu-generator/icons/8909737e42f0771844431ccbec4ec9ee.png"><action name="Execute"><command><![CDATA[palapeli]]></command></action></item>
+    <item label="Picmi" icon="/home/miguelr/.config/obmenu-generator/icons/55a77be25aa12e82ee9ae7423221be8e.png"><action name="Execute"><command><![CDATA[picmi]]></command></action></item>
+    <item label="Potato Guy" icon="/home/miguelr/.config/obmenu-generator/icons/5a33c5ca63f248960e71fcb408ba5096.png"><action name="Execute"><command><![CDATA[ktuberling -qwindowtitle]]></command></action></item>
+    <item label="SameGame" icon="/home/miguelr/.config/obmenu-generator/icons/181a1d67e0776454ef702d6fca2f7cd3.png"><action name="Execute"><command><![CDATA[klickety --KSameMode -qwindowtitle]]></command></action></item>
+    <item label="Shisen-Sho" icon="/home/miguelr/.config/obmenu-generator/icons/cd15f5e17bc828632ad8ceaccbca60ba.png"><action name="Execute"><command><![CDATA[kshisen -qwindowtitle]]></command></action></item>
+  </menu>
+  <menu id="0.437527406247668" icon="/home/miguelr/.config/obmenu-generator/icons/7809e03f5c460f0e398e5b1695b79c48.png" label="Graphics">
+    <item label="Gpick" icon="/home/miguelr/.config/obmenu-generator/icons/ce29ecd99b44156d6c8c6501a0b531e4.png"><action name="Execute"><command><![CDATA[gpick]]></command></action></item>
+    <item label="Gwenview" icon="/home/miguelr/.config/obmenu-generator/icons/493f3402f66869fe3a9f4b02dfb72c53.png"><action name="Execute"><command><![CDATA[gwenview]]></command></action></item>
+    <item label="KColorChooser" icon="/home/miguelr/.config/obmenu-generator/icons/ce29ecd99b44156d6c8c6501a0b531e4.png"><action name="Execute"><command><![CDATA[kcolorchooser]]></command></action></item>
+    <item label="KolourPaint" icon="/home/miguelr/.config/obmenu-generator/icons/86f1e7113d4bb8f5ad75bb12d3bcdb4c.png"><action name="Execute"><command><![CDATA[kolourpaint]]></command></action></item>
+    <item label="Kontrast" icon="/home/miguelr/.config/obmenu-generator/icons/9468006b492dc01eafe1348bdfcccdb1.png"><action name="Execute"><command><![CDATA[kontrast]]></command></action></item>
+    <item label="KRuler" icon="/home/miguelr/.config/obmenu-generator/icons/919d2c1d34b9d73b5e2b90d63d415fde.png"><action name="Execute"><command><![CDATA[kruler]]></command></action></item>
+    <item label="Okular" icon="/home/miguelr/.config/obmenu-generator/icons/3818357cfb08036fdd72505006bacf44.png"><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+    <item label="Skanlite" icon="/home/miguelr/.config/obmenu-generator/icons/e2c4fe9b56470848a9d20d43e5d77fa2.png"><action name="Execute"><command><![CDATA[skanlite]]></command></action></item>
+    <item label="Viewnior" icon="/home/miguelr/.config/obmenu-generator/icons/493f3402f66869fe3a9f4b02dfb72c53.png"><action name="Execute"><command><![CDATA[viewnior]]></command></action></item>
+  </menu>
+  <menu id="0.589167248128742" icon="/home/miguelr/.config/obmenu-generator/icons/49880f2f1ebb2fea19d2e85d67f77c8d.png" label="Multimedia">
+    <item label="Dragon Player" icon="/home/miguelr/.config/obmenu-generator/icons/8df24bc5704872580a8973e6948db79b.png"><action name="Execute"><command><![CDATA[dragon]]></command></action></item>
+    <item label="Elisa" icon="/home/miguelr/.config/obmenu-generator/icons/d8c82845ca9cdffffcd59ee25b5a1185.png"><action name="Execute"><command><![CDATA[elisa]]></command></action></item>
+    <item label="JuK" icon="/home/miguelr/.config/obmenu-generator/icons/70c5570856ae6d3af6b6e7a5f7af6a13.png"><action name="Execute"><command><![CDATA[juk]]></command></action></item>
+    <item label="K3b" icon="/home/miguelr/.config/obmenu-generator/icons/2f605508d76a6a839d6507955a2d21bc.png"><action name="Execute"><command><![CDATA[k3b]]></command></action></item>
+    <item label="Kamoso" icon="/home/miguelr/.config/obmenu-generator/icons/62b5e7d6268c3835bbcd55744e643c6a.png"><action name="Execute"><command><![CDATA[kamoso -qwindowtitle]]></command></action></item>
+    <item label="Kdenlive" icon="/home/miguelr/.config/obmenu-generator/icons/e85560db35282fc80bedba34901bb8a4.png"><action name="Execute"><command><![CDATA[kdenlive]]></command></action></item>
+    <item label="KMix" icon="/home/miguelr/.config/obmenu-generator/icons/57343d8e997723a5153f9e68ffc410df.png"><action name="Execute"><command><![CDATA[kmix -qwindowtitle "%c"]]></command></action></item>
+    <item label="Kwave Sound Editor" icon="/home/miguelr/.config/obmenu-generator/icons/c6bfa11953c6e03bb2bbc5d19c255789.png"><action name="Execute"><command><![CDATA[kwave]]></command></action></item>
+    <item label="Ncmpcpp - Album Art" icon="/home/miguelr/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch albumart"]]></command></action></item>
+    <item label="Ncmpcpp - Single Album Art" icon="/home/miguelr/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch single-albumart"]]></command></action></item>
+    <item label="Ncmpcpp" icon="/home/miguelr/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch"]]></command></action></item>
+    <item label="PulseAudio Equalizer" icon="/home/miguelr/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pulseaudio-equalizer-gtk]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/miguelr/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="VLC media player" icon="/home/miguelr/.config/obmenu-generator/icons/7c5ded7544dcd87898e0a8d1dbdaadb7.png"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+  </menu>
+  <menu id="0.609533018473563" icon="/home/miguelr/.config/obmenu-generator/icons/f52c14733fa4d0b8912ab57d73f76b76.png" label="Network">
+    <item label="Akregator" icon="/home/miguelr/.config/obmenu-generator/icons/b07cd7f8ffd07b0471a38aef3f987370.png"><action name="Execute"><command><![CDATA[akregator]]></command></action></item>
+    <item label="Brave" icon="/home/miguelr/.config/obmenu-generator/icons/2ff090f4058337ba77324400dd8c6142.png"><action name="Execute"><command><![CDATA[brave]]></command></action></item>
+    <item label="Contact Print Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/d98a1d9a44bbe8d135fc6b83ab472cfd.png"><action name="Execute"><command><![CDATA[contactprintthemeeditor]]></command></action></item>
+    <item label="Contact Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/d98a1d9a44bbe8d135fc6b83ab472cfd.png"><action name="Execute"><command><![CDATA[contactthemeeditor]]></command></action></item>
+    <item label="IM Contacts" icon="/home/miguelr/.config/obmenu-generator/icons/4d8b8b20952b1fb0ab162551daba9570.png"><action name="Execute"><command><![CDATA[ktp-contactlist]]></command></action></item>
+    <item label="KDE Connect Indicator" icon="/home/miguelr/.config/obmenu-generator/icons/fd826d04da575dc3d7177c6636788607.png"><action name="Execute"><command><![CDATA[kdeconnect-indicator]]></command></action></item>
+    <item label="KDE Connect SMS" icon="/home/miguelr/.config/obmenu-generator/icons/fd826d04da575dc3d7177c6636788607.png"><action name="Execute"><command><![CDATA[kdeconnect-sms]]></command></action></item>
+    <item label="KDE Connect" icon="/home/miguelr/.config/obmenu-generator/icons/fd826d04da575dc3d7177c6636788607.png"><action name="Execute"><command><![CDATA[kdeconnect-app]]></command></action></item>
+    <item label="KDE IM Log Viewer" icon="/home/miguelr/.config/obmenu-generator/icons/4d8b8b20952b1fb0ab162551daba9570.png"><action name="Execute"><command><![CDATA[ktp-log-viewer]]></command></action></item>
+    <item label="KGet" icon="/home/miguelr/.config/obmenu-generator/icons/3d5724d9951d697f0815ee8bbddfa724.png"><action name="Execute"><command><![CDATA[kget -qwindowtitle]]></command></action></item>
+    <item label="KMail Header Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[headerthemeeditor]]></command></action></item>
+    <item label="KMail" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[kmail -qwindowtitle]]></command></action></item>
+    <item label="Konqueror" icon="/home/miguelr/.config/obmenu-generator/icons/82de2e8215acc37ec717512fbd3f47d2.png"><action name="Execute"><command><![CDATA[konqueror]]></command></action></item>
+    <item label="Konversation" icon="/home/miguelr/.config/obmenu-generator/icons/8bea876c96fa38056ef9de6c658f6fa5.png"><action name="Execute"><command><![CDATA[konversation -qwindowtitle]]></command></action></item>
+    <item label="Kopete" icon="/home/miguelr/.config/obmenu-generator/icons/4d8b8b20952b1fb0ab162551daba9570.png"><action name="Execute"><command><![CDATA[kopete -qwindowtitle]]></command></action></item>
+    <item label="KRDC" icon="/home/miguelr/.config/obmenu-generator/icons/8a013c370a1388afe05d75dc83098b69.png"><action name="Execute"><command><![CDATA[krdc -qwindowtitle]]></command></action></item>
+    <item label="Krfb" icon="/home/miguelr/.config/obmenu-generator/icons/fa239ab6990af283ab000d59249bc97f.png"><action name="Execute"><command><![CDATA[krfb -qwindowtitle]]></command></action></item>
+    <item label="KTnef" icon="/home/miguelr/.config/obmenu-generator/icons/fda1e3fe78b159af301360b1afcfe2d0.png"><action name="Execute"><command><![CDATA[ktnef]]></command></action></item>
+    <item label="KTorrent" icon="/home/miguelr/.config/obmenu-generator/icons/45bddd59c884690fe598d89464a9d473.png"><action name="Execute"><command><![CDATA[ktorrent]]></command></action></item>
+    <item label="Mail Reader" icon="/home/miguelr/.config/obmenu-generator/icons/c49966c63eeb75e970c3a22dda112f6f.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="NetworkManager Dmenu" icon="/home/miguelr/.config/obmenu-generator/icons/f5b51390b69bbe6976857b2aa37eda2f.png"><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="Open on connected device via KDE Connect" icon="/home/miguelr/.config/obmenu-generator/icons/fd826d04da575dc3d7177c6636788607.png"><action name="Execute"><command><![CDATA[kdeconnect-handler --open]]></command></action></item>
+    <item label="PIM Data Exporter" icon="/home/miguelr/.config/obmenu-generator/icons/92b820ff895a52e764cecb26cb7d7fa0.png"><action name="Execute"><command><![CDATA[pimdataexporter]]></command></action></item>
+    <item label="Sieve Editor" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[sieveeditor]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/miguelr/.config/obmenu-generator/icons/da6920ee9d5af6267f860a1901c2e77b.png"><action name="Execute"><command><![CDATA[telegram-desktop --]]></command></action></item>
+    <item label="Web Browser" icon="/home/miguelr/.config/obmenu-generator/icons/c8d1f58c595c3f86a235909a3a1045f5.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+    <item label="Xtreme Download Manager" icon="/home/miguelr/.config/obmenu-generator/icons/07a8f335e1bc7e07725f4d8bb7cf820e.png"><action name="Execute"><command><![CDATA["/opt/xdman/xdman"]]></command></action></item>
+    <item label="Zoom" icon="/home/miguelr/.config/obmenu-generator/icons/4ef935a9f5aab870349c98e3c0350ca0.png"><action name="Execute"><command><![CDATA[/usr/bin/zoom]]></command></action></item>
+  </menu>
+  <menu id="0.0498771539336396" icon="/home/miguelr/.config/obmenu-generator/icons/ee0d8e1abc046978c307d1a6f82184ee.png" label="Office">
+    <item label="Atril Document Viewer" icon="/home/miguelr/.config/obmenu-generator/icons/3818357cfb08036fdd72505006bacf44.png"><action name="Execute"><command><![CDATA[atril]]></command></action></item>
+    <item label="Contact Print Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/d98a1d9a44bbe8d135fc6b83ab472cfd.png"><action name="Execute"><command><![CDATA[contactprintthemeeditor]]></command></action></item>
+    <item label="Contact Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/d98a1d9a44bbe8d135fc6b83ab472cfd.png"><action name="Execute"><command><![CDATA[contactthemeeditor]]></command></action></item>
+    <item label="KAddressBook" icon="/home/miguelr/.config/obmenu-generator/icons/d98a1d9a44bbe8d135fc6b83ab472cfd.png"><action name="Execute"><command><![CDATA[kaddressbook]]></command></action></item>
+    <item label="KMail Header Theme Editor" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[headerthemeeditor]]></command></action></item>
+    <item label="KMail" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[kmail -qwindowtitle]]></command></action></item>
+    <item label="Kontact" icon="/home/miguelr/.config/obmenu-generator/icons/92b820ff895a52e764cecb26cb7d7fa0.png"><action name="Execute"><command><![CDATA[kontact]]></command></action></item>
+    <item label="KOrganizer" icon="/home/miguelr/.config/obmenu-generator/icons/f2dcedc1877b60c4074caa534536633c.png"><action name="Execute"><command><![CDATA[korganizer]]></command></action></item>
+    <item label="KTnef" icon="/home/miguelr/.config/obmenu-generator/icons/fda1e3fe78b159af301360b1afcfe2d0.png"><action name="Execute"><command><![CDATA[ktnef]]></command></action></item>
+    <item label="Lokalize" icon="/home/miguelr/.config/obmenu-generator/icons/1ffb26e4aad91bb4777bd6bed4cf3b0e.png"><action name="Execute"><command><![CDATA[lokalize]]></command></action></item>
+    <item label="Okular" icon="/home/miguelr/.config/obmenu-generator/icons/3818357cfb08036fdd72505006bacf44.png"><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+    <item label="Sieve Editor" icon="/home/miguelr/.config/obmenu-generator/icons/f9f986591653989304d62871c87a888f.png"><action name="Execute"><command><![CDATA[sieveeditor]]></command></action></item>
+  </menu>
+  <menu id="0.090140148823366" icon="/home/miguelr/.config/obmenu-generator/icons/5e80e00ee3ba3f489968ff59a564f014.png" label="Other">
+    <item label="Help" icon="/home/miguelr/.config/obmenu-generator/icons/a7c8153ae247286473e34aefbfe5816b.png"><action name="Execute"><command><![CDATA[khelpcenter]]></command></action></item>
+    <item label="Spotify" icon="/home/miguelr/.config/obmenu-generator/icons/8e052c5fecc27eb3ea28c1608683a87e.png"><action name="Execute"><command><![CDATA[/usr/lib/brave-bin/brave --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf]]></command></action></item>
+  </menu>
+  <menu id="0.645253336771741" icon="/home/miguelr/.config/obmenu-generator/icons/09cca5a90cf66e2acc310777357e01cd.png" label="Settings">
+    <item label="Accessibility" icon="/home/miguelr/.config/obmenu-generator/icons/fc6f88d39b099fc0c7d4810360021092.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/miguelr/.config/obmenu-generator/icons/5d3a22719dee1c6ca72743f808cf7f3d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Appearance" icon="/home/miguelr/.config/obmenu-generator/icons/237aa883941b8d872c4170ab1b7ce803.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Bluetooth Adapters" icon="/home/miguelr/.config/obmenu-generator/icons/27d24b548f51717f914c455a0a93dd1f.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Bluetooth Manager" icon="/home/miguelr/.config/obmenu-generator/icons/27d24b548f51717f914c455a0a93dd1f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Color Profiles" icon="/home/miguelr/.config/obmenu-generator/icons/ea16e6bf1547a93343bf6ea7d680d6d6.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/miguelr/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Default Applications" icon="/home/miguelr/.config/obmenu-generator/icons/8fcf961746d49c824723bb450e6bf1d8.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Display" icon="/home/miguelr/.config/obmenu-generator/icons/1bd9be1e6730b695ec0ef3ebbb6328b4.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="IBus Preferences" icon="/home/miguelr/.config/obmenu-generator/icons/5d0aecb3d17b234acdc49709b3629778.png"><action name="Execute"><command><![CDATA[ibus-setup]]></command></action></item>
+    <item label="KDE Connect Settings" icon="/home/miguelr/.config/obmenu-generator/icons/fd826d04da575dc3d7177c6636788607.png"><action name="Execute"><command><![CDATA[kdeconnect-settings]]></command></action></item>
+    <item label="KDE System Settings" icon="/home/miguelr/.config/obmenu-generator/icons/d0c46ae2682541ec37ee1ff56426102f.png"><action name="Execute"><command><![CDATA[systemsettings5]]></command></action></item>
+    <item label="Keyboard" icon="/home/miguelr/.config/obmenu-generator/icons/3db6c2fc55b590c1697f1a015dc06158.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/miguelr/.config/obmenu-generator/icons/08143f8bb82c44cd63a021079db1b4c3.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/miguelr/.config/obmenu-generator/icons/51a27c63a93d08788e726d5afa7a2f98.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="NetworkManager Dmenu" icon="/home/miguelr/.config/obmenu-generator/icons/f5b51390b69bbe6976857b2aa37eda2f.png"><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="Notifications" icon="/home/miguelr/.config/obmenu-generator/icons/38e1179534e5f5401bc77fd9946b7b87.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/miguelr/.config/obmenu-generator/icons/6e895989cd797fdd696f83b4efae326c.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Power Manager" icon="/home/miguelr/.config/obmenu-generator/icons/d3f70cde88650603abe358e3cb6d455e.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/miguelr/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/miguelr/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Settings Editor" icon="/home/miguelr/.config/obmenu-generator/icons/849faf0840dc8c911a529d5d854f2cb1.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/miguelr/.config/obmenu-generator/icons/0867f54217ccae01b3363467a0cae17f.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="System Settings" icon="/home/miguelr/.config/obmenu-generator/icons/d0c46ae2682541ec37ee1ff56426102f.png"><action name="Execute"><command><![CDATA[systemsettings]]></command></action></item>
+    <item label="Xfce Terminal Settings" icon="/home/miguelr/.config/obmenu-generator/icons/e0dd3dbe740d13d8b33b40b51396a538.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+    <item label="YAD settings" icon="/home/miguelr/.config/obmenu-generator/icons/06095d57ff5d478c4f2196eecefa4056.png"><action name="Execute"><command><![CDATA[yad-settings]]></command></action></item>
+  </menu>
+  <menu id="0.8231038541903" icon="/home/miguelr/.config/obmenu-generator/icons/4eac2c15c4f59baf2bfb242091dc05a6.png" label="System">
+    <item label="About Archcraft" icon="/home/miguelr/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[about-os]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/miguelr/.config/obmenu-generator/icons/5d3a22719dee1c6ca72743f808cf7f3d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Alacritty" icon="/home/miguelr/.config/obmenu-generator/icons/8e48aa476c479386d555af3954a25252.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Discover" icon="/home/miguelr/.config/obmenu-generator/icons/5e80e00ee3ba3f489968ff59a564f014.png"><action name="Execute"><command><![CDATA[plasma-discover]]></command></action></item>
+    <item label="Disk Usage Analyzer" icon="/home/miguelr/.config/obmenu-generator/icons/1bf8ead9507246ea3046c7847d622612.png"><action name="Execute"><command><![CDATA[baobab]]></command></action></item>
+    <item label="Dolphin" icon="/home/miguelr/.config/obmenu-generator/icons/253ccbfd9dc6b320c2bf7b7010063ded.png"><action name="Execute"><command><![CDATA[dolphin]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/miguelr/.config/obmenu-generator/icons/253ccbfd9dc6b320c2bf7b7010063ded.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="fish" icon="/home/miguelr/.config/obmenu-generator/icons/64fb6b6a526a220bc0a313775612a9af.png"><action name="Execute"><command><![CDATA[urxvt -e 'fish']]></command></action></item>
+    <item label="GParted" icon="/home/miguelr/.config/obmenu-generator/icons/11296c26a6eb1a3c0e8610c1fd8ef7e5.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Help and Tips" icon="/home/miguelr/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[help-and-tips]]></command></action></item>
+    <item label="Htop" icon="/home/miguelr/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png"><action name="Execute"><command><![CDATA[urxvt -e 'htop']]></command></action></item>
+    <item label="Info Center" icon="/home/miguelr/.config/obmenu-generator/icons/37c1375552e68630f9dc7c3b50797762.png"><action name="Execute"><command><![CDATA[kinfocenter]]></command></action></item>
+    <item label="KDE Partition Manager" icon="/home/miguelr/.config/obmenu-generator/icons/11296c26a6eb1a3c0e8610c1fd8ef7e5.png"><action name="Execute"><command><![CDATA[partitionmanager]]></command></action></item>
+    <item label="KDiskFree" icon="/home/miguelr/.config/obmenu-generator/icons/1bf8ead9507246ea3046c7847d622612.png"><action name="Execute"><command><![CDATA[kdf -qwindowtitle]]></command></action></item>
+    <item label="Konsole" icon="/home/miguelr/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[konsole]]></command></action></item>
+    <item label="KSysGuard" icon="/home/miguelr/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png"><action name="Execute"><command><![CDATA[ksysguard]]></command></action></item>
+    <item label="KSystemLog" icon="/home/miguelr/.config/obmenu-generator/icons/3e51b5f3cfbe373cec8f292ced0c2336.png"><action name="Execute"><command><![CDATA[ksystemlog -qwindowtitle]]></command></action></item>
+    <item label="KWalletManager" icon="/home/miguelr/.config/obmenu-generator/icons/ffd7809651921c37722134ce964a4d37.png"><action name="Execute"><command><![CDATA[kwalletmanager5]]></command></action></item>
+    <item label="KwikDisk" icon="/home/miguelr/.config/obmenu-generator/icons/1bf8ead9507246ea3046c7847d622612.png"><action name="Execute"><command><![CDATA[kwikdisk -qwindowtitle]]></command></action></item>
+    <item label="Manage Printing" icon="/home/miguelr/.config/obmenu-generator/icons/14072444d3179867621cefb2be749b80.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="OpenJDK Java 11 Console" icon="/home/miguelr/.config/obmenu-generator/icons/5d7610901d15f054b7a470a237fc2867.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-11-openjdk/bin/jconsole]]></command></action></item>
+    <item label="OpenJDK Java 11 Shell" icon="/home/miguelr/.config/obmenu-generator/icons/5d7610901d15f054b7a470a237fc2867.png"><action name="Execute"><command><![CDATA[urxvt -e '/usr/lib/jvm/java-11-openjdk/bin/jshell']]></command></action></item>
+    <item label="ranger" icon="/home/miguelr/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[urxvt -e 'ranger']]></command></action></item>
+    <item label="System Monitor" icon="/home/miguelr/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png"><action name="Execute"><command><![CDATA[plasma-systemmonitor]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/miguelr/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Timeshift" icon="/home/miguelr/.config/obmenu-generator/icons/5e76518463b2a0f1a4872560af4290de.png"><action name="Execute"><command><![CDATA[timeshift-launcher]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/miguelr/.config/obmenu-generator/icons/43b91b3a50e184689fe3cb3ee4eafcad.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+    <item label="Yakuake" icon="/home/miguelr/.config/obmenu-generator/icons/25c1bdbbf168896c38069bd26b5b31b8.png"><action name="Execute"><command><![CDATA[yakuake]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Open Terminal" icon="/home/miguelr/.config/obmenu-generator/icons/6b7a63f2cbee8f9c8a4eba028376691f.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal]]></command></action></item>
+    <item label="Open File Manager" icon="/home/miguelr/.config/obmenu-generator/icons/ef5525f3794d630f86d93c77000b5e1c.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch filemanager]]></command></action></item>
+  <separator/>
+  <menu id="0.120802676800839" icon="/home/miguelr/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png" label="Screenshot">
+    <item label="Now" icon="/home/miguelr/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-now delay]]></command></action></item>
+    <item label="After ..s" icon="/home/miguelr/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-timer]]></command></action></item>
+    <item label="Select window or draw" icon="/home/miguelr/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-seldraw]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.449554830638377" label="Monitor Settings" execute="~/.config/openbox/pipe-menu/ob-randr.py" icon="/home/miguelr/.config/obmenu-generator/icons/24ed2898a266c6e05213847502e75af5.png"/>
+  <menu id="0.969877693642498" label="Advanced Settings" icon="/home/miguelr/.config/obmenu-generator/icons/3b33f5bca1a4272c65e9392be19d5ecc.png">
+    <item label="Menu Schema" icon="/home/miguelr/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/miguelr/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/miguelr/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/miguelr/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/miguelr/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+  <menu id="0.437159622873985" label="Openbox" icon="/home/miguelr/.config/obmenu-generator/icons/59e5fde7981f4d4bfdd804ae1aa217d9.png">
+    <item label="Openbox Autostart" icon="/home/miguelr/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/miguelr/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/miguelr/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/miguelr/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/miguelr/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/miguelr/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure" icon="/home/miguelr/.config/obmenu-generator/icons/59e5fde7981f4d4bfdd804ae1aa217d9.png"><action name="Reconfigure"/></item>
+  </menu>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/miguelr/.config/obmenu-generator/icons/4f4227afc62272bdd3a72f398f8b8274.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <separator/>
+  <separator label="SESSIONS"/>
+  <menu id="0.15947930395561" icon="/home/miguelr/.config/obmenu-generator/icons/6da5e375c82dea67d39f1b2a7bc051e6.png" label="Theme Styling">
+    <item label="Change Wallpaper" icon="/home/miguelr/.config/obmenu-generator/icons/a311782080112da9da94906e9d884097.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal -e ~/.config/openbox/visual-mode/wally]]></command></action></item>
+    <item label="Reverse Terminal Visual" icon="/home/miguelr/.config/obmenu-generator/icons/6b7a63f2cbee8f9c8a4eba028376691f.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/termody]]></command></action></item>
+  <separator/>
+    <item label="Change Button Style" icon="/home/miguelr/.config/obmenu-generator/icons/b46d0825411933ca1da12589a022657c.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal -e ~/.config/openbox/visual-mode/ob-button]]></command></action></item>
+    <item label="Swap Button [L/R]" icon="/home/miguelr/.config/obmenu-generator/icons/458b99d25aee88d25f52aaa4d2ea76bc.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/ob-button swap]]></command></action></item>
+  <separator/>
+    <item label="Toggle Minimal Mode" icon="/home/miguelr/.config/obmenu-generator/icons/4481847f838b921bfc462d6de228a761.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle minimal]]></command></action></item>
+    <item label="Switch Visual Mode" icon="/home/miguelr/.config/obmenu-generator/icons/05d2c34e50441fb44fe8a534990bc26c.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle]]></command></action></item>
+  </menu>
+  <separator/>
+    <item label="Restart UI" icon="/home/miguelr/.config/obmenu-generator/icons/c667d1527ccb8ee507541284b469ed98.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle just_ui]]></command></action></item>
+  <separator/>
+    <item label="Lockscreen" icon="/home/miguelr/.config/obmenu-generator/icons/56806929f3c35cb64a54a19d01bd00a6.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch lockscreen]]></command></action></item>
+    <item label="Exit Openbox" icon="/home/miguelr/.config/obmenu-generator/icons/fca0b1a0dc973976e70cad0157b35b32.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
